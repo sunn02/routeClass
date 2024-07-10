@@ -144,3 +144,6 @@ marcar_camino(matrix, path)
 
 # Imprimir la cuadrícula con el camino más corto
 imprimir_cuadricula(matrix)
+
+
+#uwu
