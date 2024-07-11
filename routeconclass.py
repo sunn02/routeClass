@@ -82,8 +82,9 @@ class Grafo():
             matriz[j][i] = 1
         return matriz
     
-    def convertir_a_indice(self, coordenadas):
+    def convertir_a_indice(self, coordenadas): #Se crea esta funcion para acceder a las coordenadas a partir de su indice dentro de la matriz
         return self.vertices.index(coordenadas)
+    
     
     def dijkstra(self, origen):
         distancia = [sys.maxsize] * self.num_vertices
